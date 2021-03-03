@@ -1,0 +1,79 @@
+// This file for tutorial. Please use config file for real usage.
+
+{
+	"license_key" : "YOUR Licence Key (license key from your Dashboard on HyperVoter (https://hypervoter.com)",
+	"username" : "instagram username",
+	"password" : "accounts password",
+	"proxy" : "3 to skip or else please fill related info. Proxy should match following pattern: http://ip:port or http://username:password@ip:port Dont use https://",
+	"speed_value" : "value from 10000 to 500000, or just simple type 0 for maximum speed, but remember that maximum speed might be risky and you can get exception \"Throttled by Instagram because of too many API requests\" block for half a day, if this account actively used by user in Instagram app in the same time",
+	"targets" : "target_1,target_2,target_3,...,target_n",
+	"telegram_username" : "Your telegram username",
+	"is_telegram_chat_id" : "Your telegram chat id : contact with @userinfobot and learn your id. ",
+	"telegram_delay" : "Stat report delay time. This time is second. For 1 day you need type here 86400",
+	"is_telegram_active":true, Telegram active? 
+	"is_verified":false, Accounts is verified? 
+	"is_auto_confirm":true, Do you want to auto confirm targets? 
+	"is_mention_active":true, Do you want to mention people's username on your bio?
+	"is_telegram_error_active":true, Telegram Error Notification active? 
+	"is_telegram_stats_active":true, Telegram stats notification active? 
+	"telegram_token" : null, Telegram token for next update. 
+	"post_like": true,
+	"post_comment": true,
+	"post_comment_like": true,
+	"post_like_per_people": 5,
+	"follow": true,
+	"business" : false, Do you want to ignore business profiles? if yes, please set "true".
+	"unfollow": true,
+	"unfollow_interval": 86400,
+	"comment_speed": 100,
+	"comment_like_speed": 10000,
+	"post_like_speed": 15,
+	"follow_speed": 15,
+	"unfollow_speed": 15,
+	"timeline_post_like": true,
+	"fresh_stories_range" : 5, //hours - 0 to 23
+	"is_poll_vote_active" : true,// true for giving vote, false for closing
+	"is_slider_points_active" : true, // true for points vote, false for closing
+	"is_follower_ignore_active":false, // ignore your follower stories.
+	"is_following_ignore_active":false, // ignore your following people stories
+	"is_same_user_ignore_active":false, // ignore same people stories.
+	"is_requested_ignore_active":false, // ignore follow requested people stories.
+	"filter" : 2, // 2 mean all  filter active at same time. 0 : Liker - 1 : Follow - 2 : All Filter At same time..
+	"is_questions_answers_active" : true, // true for answer vote, false for closing
+	"is_quiz_answers_active" : true, // true for giving answer, false for closing
+	"is_countdown_active" : true, // true for following countdowns, false for closing
+	"is_mass_story_vivew_active": true, // true for mass story view. Use with caution. We are not responsible if your account banned or something worse
+	"questions_answers" : [
+		"hi",
+		"hello",
+		"are you there?",
+		"😍",
+		"🥰",
+		"🤩",
+		"😎",
+		"😄",
+		"😅",
+		"😂"
+	],
+	"questions_answers_ar":["salam"," essalamun aleykum"," marhabaan"], 
+	"questions_answers_en":["hi"," hello"," whats up?"],
+	"questions_answers_de":["hallo"," hallo"," hallo"],
+	"questions_answers_fr":["salut"," salut"," salut"],
+	"questions_answers_tr":["merhaba"," naber?"],
+	"questions_answers_id":["hai"," hai"," hai"],
+	"questions_answers_in":["namaste"," namaste"],
+	"questions_answers_ru":["privet"," privet"," privet"],
+	"questions_answers_jp":["Kon'nichiwa"," Kon'nichiwa"],
+	"questions_answers_cn":["hei"," hei"],
+	"questions_answers_it":["ciao"," ciao"],
+	"questions_answers_es":["hola"," hola"],
+	"questions_answers_pt":["ola"," ola"],
+	"questions_answers_ir":["salam","salam","essalamunlaeykum"]
+	"slider_points_range" : [
+		75, // Minimum value: 0 - 100
+		100 // Maximum value: >0 - 100
+	]
+
+
+
+}
